@@ -8,7 +8,7 @@ To reproduce analyses:
 
 DATA SOURCES:
 
-Tracking data: collected and stored in UvA-BiTS. Product of script p1-Extract-migration-data-uvabits.R available at request. 
+Tracking data: download file from https://www.dropbox.com/scl/fo/hth9k9ltf263a8vymg7jj/h?dl=0&rlkey=g4poj4ki7y0hte0xqci3kzwu3
 
 Environmental data (for mapping):
 - country borders via: https://www.naturalearthdata.com/downloads/50m-cultural-vectors/
