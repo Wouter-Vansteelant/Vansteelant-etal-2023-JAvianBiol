@@ -2,7 +2,7 @@
 ---
 Migratory movement data of Canarian Eleonora's falcons, tracked with UvA-BiTS GPS loggers, and resampled to hourly resolution are provided via Dryad: JAV-03050.R3
 
-This GitHub repository contains the R code to reproduce all analyses in Vansteelant et al (2023) J Avian Biol.
+The R code to reproduce all analyses in Vansteelant et al (2023) J Avian Biol. is made available through GitHub: https://github.com/Wouter-Vansteelant/Vansteelant-etal-2023-JAvianBiol
 
 ## Description of the data and file structure
 
