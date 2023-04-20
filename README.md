@@ -1,6 +1,8 @@
 # A trans-African migrant shows repeatable route choice in males and repeatable timing in females
 ---
-Migratory movement data of Canarian Eleonora's falcons, tracked with UvA-BiTS GPS loggers, and resampled to hourly resolution, along with R code to reproduce all analyses in Vansteelant et al (2023) J Avian Biol.
+Migratory movement data of Canarian Eleonora's falcons, tracked with UvA-BiTS GPS loggers, and resampled to hourly resolution are provided via Dryad: JAV-03050.R3
+
+This GitHub repository contains the R code to reproduce all analyses in Vansteelant et al (2023) J Avian Biol.
 
 ## Description of the data and file structure
 
