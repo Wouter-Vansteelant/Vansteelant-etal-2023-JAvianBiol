@@ -15,7 +15,7 @@ ipak(packages)
 #meta <- read.csv('./Data/Metadata_full-v20201014.csv')
 #data <- read.csv('./Data/EF-resampled-v2020-10-14.csv')
 
-meta <- read.csv('./Data/Metadata_full-v20201207.csv')
+meta <- read.csv('./Data/Metadata_full-v20201207b.csv')
 data <- read.csv('./Data/EF-resampled-v20210322.csv')
 
 # Format data
