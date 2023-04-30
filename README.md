@@ -11,8 +11,12 @@ Provenance for this README
 
 - - -
 
-Dataset Attribution and Usage
------------------------------
+Accompanying Paper and Data
+---------------------------
+
+* Paper Title: "A trans-African migrant shows repeatable route choice in males and repeatable timing in females"
+
+* Paper identifier: 10.1111/jav.03050
 
 * Dataset Title: Data for the article "A trans-African migrant shows repeatable route choice in males and repeatable timing in females"
 
@@ -33,30 +37,25 @@ Methodological Information
 
 - - -
 
-File/Folder Details
-===================
-
-Third-party data
------------------
-Links to other publicly accessible third-party data:
-  * country borders via: https://www.naturalearthdata.com/downloads/50m-cultural-vectors/
-  * lake borders via: https://www.naturalearthdata.com/downloads/50m-physical-vectors/
-  * NDVI composites Africa: reproduce with GGE code here: https://static-content.springer.com/esm/art%3A10.1186%2Fs40462-021-00272-8/MediaObjects/40462_2021_272_MOESM3_ESM.docx
-  * 30 arcsec DEM: https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-global-30-arc-second-elevation-gtopo30
+Instructions for replicating analyses
+=====================================
 
 Code/Software
 -----------------
-All code to read and combine datafiles, and replicate analyses are available through main author's GitHub page: https://github.com/Wouter-Vansteelant/Vansteelant-etal-2023-JAvianBiol
+Code in this GitHub repository includes all steps to further process open access tracking data and metada, to combine these with additional third-party date, and to replicate analyses and visualisatios.
 
 Setup
 -----
  * store all codes in a dedicated working directory
  * store tracking and metadata made available through Dryad in a subfolder 'Data' of your working directory 
  * store third-party environmental data in a subfolder 'Environmental_Data' on main hard drive, or store in local working directory and adjust code to read data sources from appropriate folder. 
- * create R project in the same working directory
- * run scripts one by one in order indicated by first 2-3 symbols of script: p1, p1b, p2, p2b, ...
+ * open R Studio and create R project in the same working directory
+ * run scripts one by one in order indicated by first 2-3 symbols of script. Scripts p1 and p1b were used for downloading full tracking data and pre-processing (resampling). To replicate analyses, start from p2, and proceed by runnings scripts p2b, p2c, p3...
 
-The code to replicate analyses is made available through GitHub (see below). Code automatically installs all required packages for reproducing the analyses. 
+The code automatically installs all required packages for reproducing the analyses. 
+
+Pre-processed tracking data and metadata on Dryad
+==================================================
 
 Details for: EF-resampled-v20210322.csv
 ---------------------------------------
@@ -87,6 +86,14 @@ Details for: Metadata_full-v20201207b.csv
   * colony: all from Canaries
   * age: all adult
   * sex: male/female
+
+Third-party data
+-----------------
+Links to other publicly accessible third-party data:
+  * country borders via: https://www.naturalearthdata.com/downloads/50m-cultural-vectors/
+  * lake borders via: https://www.naturalearthdata.com/downloads/50m-physical-vectors/
+  * NDVI composites Africa: reproduce with GGE code here: https://static-content.springer.com/esm/art%3A10.1186%2Fs40462-021-00272-8/MediaObjects/40462_2021_272_MOESM3_ESM.docx
+  * 30 arcsec DEM: https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-global-30-arc-second-elevation-gtopo30
 
 - - -
 END OF README
