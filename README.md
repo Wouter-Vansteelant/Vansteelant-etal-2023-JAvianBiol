@@ -57,7 +57,7 @@ The code automatically installs all required packages for reproducing the analys
 Pre-processed tracking data and metadata on Dryad
 ==================================================
 
-Details for: EF-resampled-v20210322.csv
+Details for: EF-resampled-v20210322b.csv
 ---------------------------------------
 * Description: a comma-delimited file containing the tracking data of 19 Eleonora's falcons for which we recorded at least one full migration cycle, resampled to an hourly resolution. 
 
@@ -66,11 +66,24 @@ Details for: EF-resampled-v20210322.csv
 * Size(s): 19.58 MB
 
 * Variables:
+  * cycle: identifier of migration cycle, defined as 2nd half of year x (incl the outbound migration) and first half of year x+1 (incl the return migration)
+  * tripID: identifier of unique trips, composed from columns dev, yr and out/return
+  * indday: identifiers for unique birddays, composed of columns dev and a day number with 0000 = 1 Jan 2012
   * dev: identifier of UvA-BiTS device (each value also corresponds to an unique individual)
-  * columns 2 through 7: year, month, day, hour, minutes, seconds elements of GPS timestamp in UTC
+  * dt: timestamp in UTC
   * lat: latitude (decimal degrees, WGS84)
   * long: longtiude (decimal degrees, WGS84)
   * alt: altitude recorded by GPS relative to mean sea level
+  * date: date
+  * mth: month
+  * yr: year
+  * yday: day of year (0-365)
+  * dist.to.colony: distance to colony in meters
+  * trip: factor indicating whether data belongs to outward (out) or return migration
+  * country: name of country in which location was recorded (NA = no value = over sea)
+  * travel: discrete value indicating whether data pertains to a travel bout (1) or stop-over event (0)
+  * phase: factor indicating whether data belongs to summer period (summer), outward migration (out), winter period (winter), or return migration (return). This data file is clipped to outward and return migration data only
+  * cycle.time: numeric value indicating decimal days passed since start of each migration period (calculated from July 1st of year x in cycle)
 
 
 Details for: Metadata_full-v20201207b.csv
