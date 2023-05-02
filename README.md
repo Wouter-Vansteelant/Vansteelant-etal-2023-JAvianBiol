@@ -63,7 +63,7 @@ Details for: EF-resampled-v20210322b.csv
 
 * Format(s): .csv
 
-* Size(s): 19.58 MB
+* Size(s): 9.7 MB
 
 * Variables:
   * cycle: identifier of migration cycle, defined as 2nd half of year x (incl the outbound migration) and first half of year x+1 (incl the return migration)
