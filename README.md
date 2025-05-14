@@ -20,7 +20,7 @@ Accompanying Paper and Data
 
 * Dataset Title: Data for the article "A trans-African migrant shows repeatable route choice in males and repeatable timing in females"
 
-* Persistent Identifier: https://doi.org/10.5061/dryad.2bvq83btg
+* Persistent Identifier: https://doi.org/10.5061/dryad.1rn8pk0zp
 
 * Dataset Contributors:
 
